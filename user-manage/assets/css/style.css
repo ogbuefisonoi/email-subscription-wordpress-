@@ -1,0 +1,125 @@
+.admin.user-manage.wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+}
+.admin.user-manage.head {
+    display: inline-flex;
+    width: 100%;
+}
+.admin.user-manage.head div {
+    width: 33.3333%;
+}
+.admin.user-manage.head div:nth-child(2) {
+    text-align: center;
+}
+.admin.user-manage.head div:nth-child(3) {
+    text-align: right;
+}
+.btn.admin.user-manage {
+    margin: 2em 0;
+    font-size: 15px;
+    padding: 8px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form.admin.user-manage.form{
+    width: fit-content;
+    width: 100%;
+}
+
+form.admin.user-manage.form .form-group {
+    display: inline-flex;
+    width: 100%;
+}
+.input-item {
+    display: grid;
+    width: 25%;
+}
+
+.input-item label {
+    padding-bottom: 1em;
+}
+.user-insert {
+    margin: 1em 0;
+    text-align: right;
+}
+
+.table.wrapper {
+    width: 100%;
+}
+.table.wrapper .user-table{
+    width: 100%;
+}
+.table.wrapper .user-table th {
+    width: 20%;
+}
+
+.table.wrapper .user-table input:disabled {
+    background: gainsboro;
+    color: rgba(51,51,51,1.5);
+}
+.table.wrapper .user-table input[type="text"] {
+    height: 46px;
+    width: 100%;
+}
+.table.edit{
+    text-align: center;
+    border: 1px solid;
+    border-color: rgba(222,222,222,.75);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.04);
+    background: gainsboro;
+}
+.user.table.row.edit{
+    background: white;
+    border: 1px solid #FFF0F5;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+form.row.delete input[type="submit"] {
+    color: white;
+    height: 20px;
+    background: red;
+    border: 1px solid gainsboro;
+    width: fit-content;
+    line-height: 16px;
+}
+.activate {
+    display: block !important;
+}
+
+.admin.user-manage.body {
+    display: none;
+}
+    
+.admin.user-search{
+    display: none;
+}
+.user-search-bar {
+    width: 40%;
+    margin-bottom: 3em;
+}
+input.custom.user.search {
+    padding: 4px 10px;
+}
+.user.table.row.update {
+    display: none;
+}
+input.user.table.row.update.activate {
+    background: lightcoral;
+    padding: 0 5px;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+}
+td.table.col.delete {
+    text-align: center;
+    border: 1px solid;
+    border-color: rgba(222,222,222,.75);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.04);
+    background: gainsboro;
+    padding: 0 10px;
+}
